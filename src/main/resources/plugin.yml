@@ -1,0 +1,50 @@
+author: meta1203
+database: true
+main: me.meta1203.plugins.craftcoin.Craftcoinish
+name: Craftcoinish
+url: http://www.craftcoin.net/
+softdepend: [Vault]
+load: startup
+version: '1.0'
+commands:
+  deposit:
+    description: 'Deposit money through Bitcoin address'
+  money:
+    description: 'List your in-game money balance'
+  withdraw:
+    description: 'Withdraw money to a Bitcoin address'
+  transact:
+    description: 'Send in-game money to player'
+  craftcoin:
+    description: 'Print testing info'
+  syscheck:
+    description: 'Check Satoshis system health'
+  credit:
+    description: 'Credit in-game money to player'
+  debit:
+    description: 'Debit in-game money from player'
+  auction:
+    description: 'In-Game auction controller.'
+permissions:
+  craftcoin.admin:
+    description: 'Permission for Satoshis /satoshis'
+  craftcoin.withdraw:
+    description: 'Permission for Satoshis /withdraw'
+    default: 'true'
+  craftcoin.deposit:
+    description: 'Permission for Satoshis /deposit'
+    default: 'true'
+  craftcoin.transact:
+    description: 'Permission for Satoshis /transact'
+  craftcoin.money:
+    description: 'Permission for Satoshis /money'
+    default: 'true'
+  craftcoin.info:
+    description: 'Permission for Satoshis /syscheck'
+  craftcoin.credit:
+    description: 'Permission for Satoshis /credit'
+  craftcoin.debit:
+    description: 'Permission for Satoshis /debit'
+  craftcoin.auction:
+    description: 'Permissions for Satoshis /auction'
+    default: 'true'

@@ -1,0 +1,16 @@
+*.class
+*~
+# Package Files #
+*.war
+*.ear
+
+/.classpath
+/.settings
+/.project
+/runtime
+/bin
+/dist
+/.idea
+/target
+/dependency-reduced-pom.xml
+Satoshis.iml
